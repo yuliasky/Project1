@@ -18,7 +18,7 @@ git pull origin cleanData  --> up to date
 git checkout master
 git pull  --> up to date
 git merge other_branch
-git push master
+git push master    --> "push master" no funciona
 
 git checkout -b Victor/branches_exercise
 git pull origin Victor/branches_exercise   --> se ven los nuevos files en mi computadora
