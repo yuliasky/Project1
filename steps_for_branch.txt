@@ -1,0 +1,19 @@
+create new branch (cleanData) en web
+git checkout -b cleanData    --> para pasar de master al branch
+agregar archivo / carpeta   --> solo se verán en el branch
+git add.
+git commit -m "branch commit"
+git push --set-upstream origin cleanData  (git push origin <branch_name>)
+git checkout master     --> para volver al master
+git status
+git merge cleanData
+git add .
+git commit -m "merge"
+git push
+
+
+git pull origin master  --> up to date
+git checkout cleanData  
+git pull origin cleanData  --> up to date
+
+
